@@ -1,0 +1,1118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+ul.navbar_menu {
+    width: 100%;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 600;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+
+.member_header_btn {
+    font-family: "Teko", sans-serif;
+    font-size: 1rem;
+    padding: 21px 36px;
+    background-color: rgb(255, 19, 19);
+    color: #fff;
+    border: 1px solid red;
+}
+
+.main_headers {
+    background-image: url(images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: space;
+}
+
+.main_headers {
+    padding-top: 1.5rem;
+}
+
+.caption_with_btn {
+    color: #f04e3c;
+    font-size: 1rem;
+}
+
+.caption_content {
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.caption_with_video {
+    padding-top: 13rem;
+    padding-bottom: 15rem;
+}
+
+.member_btn {
+    font-weight: 300;
+    color: #fff;
+    background: #ff1313;
+    padding: 1.2rem 2.3rem;
+    border: 1px solid #ff1313;
+    font-family: "Teko", sans-serif;
+}
+
+.left_to_right_bar {
+    width: 5.5rem;
+    border: 1px solid red;
+}
+
+.caption_with_btn {
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.caption_text {
+    letter-spacing: 0.05em;
+}
+
+.hero_caption_with_video {
+    padding-left: 12em;
+}
+
+.hero_caption_with_video {
+    position: relative;
+    animation-direction: alternate;
+    animation: mymove 2s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 200px;
+    }
+}
+
+.main_about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.about_gym {
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+}
+
+.about_title {
+    font-weight: 400;
+    font-size: 1.4rem;
+    font-family: 'Teko';
+    text-transform: uppercase;
+    color: rgb(240, 78, 60);
+}
+
+.about_gym_bar {
+    border: 1px solid red;
+    width: 59px;
+}
+
+.about_capsion {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.about_heading {
+    font-weight: 700;
+    padding-bottom: 2rem;
+    color: #2c234d;
+    font-family: 'Teko';
+    width: 100%;
+    max-width: 32rem;
+    line-height: 4rem;
+    font-size: 4rem;
+}
+
+.about_para_top {
+    font-family: 'Teko';
+    color: #212025;
+    width: 100%;
+    word-spacing: 0.1rem;
+    max-width: 31rem;
+    font-size: 1.3em;
+    padding-bottom: 1.8rem;
+}
+
+.about_member_btn {
+    background: red;
+    font-family: 'Teko';
+    font-size: 1.2rem;
+    color: #fff;
+    border: 1px solid red;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+}
+
+.about_para_bottom {
+    width: 100%;
+    font-weight: 400;
+    max-width: 29rem;
+    color: #212025;
+    padding-bottom: 4rem;
+}
+
+.about_img {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    object-fit: cover;
+}
+
+/* service areal */
+
+.service_area {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/service_area_back_img.jpg');
+    background-position: center center;
+    object-fit: cover;
+    background-repeat: round;
+}
+
+.our_service_caption {
+    color: red;
+    font-weight: 300;
+    font-size: 24px;
+    font-family: 'Teko';
+    text-transform: uppercase;
+}
+
+.our_service_bar {
+    height: 2px;
+    background: red;
+    width: 56px;
+}
+
+.our_service_title_with_heading {
+    display: flex;
+    gap: 1.5em;
+    align-items: center;
+}
+
+.our_service_title h2 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 4.3rem;
+    padding-top: 1rem;
+    overflow: hidden;
+    font-weight: bold;
+    font-family: 'Teko';
+}
+
+.our_service_btn {
+    padding: 1rem 3rem;
+    background: red;
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: Teko, sans-serif;
+    text-transform: uppercase;
+}
+
+.our_service {
+    padding-top: 11rem;
+}
+
+.our_service_title {
+    padding-left: 9rem;
+}
+
+.our_service_btns {
+    padding-top: 6rem;
+}
+
+.service_area_equipment_title svg {
+    width: 3rem;
+}
+
+.service_area_equipment_title {
+    background-color: #fff;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.service_area_equipment_title h3 {
+    color: rgb(6, 8, 10);
+    overflow: hidden;
+    font-size: 24px;
+    padding-top: 2.5rem;
+    padding-bottom: 0.9rem;
+    font-family: 'Teko', sans-serif;
+}
+
+.service_area_equipment_title p {
+    color: rgb(48, 49, 51);
+    font-size: 16px;
+    width: 100%;
+    margin: auto;
+    max-width: 18rem;
+}
+
+.service_area_equipment {
+    display: flex;
+    align-items: center;
+    padding-top: 6rem;
+    gap: 2rem;
+    height: 100%;
+    justify-content: center;
+    padding-bottom: 11rem;
+}
+
+.service_area_slide {
+    display: flex;
+    gap: 10px;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    background: red;
+    color: #fff;
+
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.left_to_right_arrow svg {
+    fill: #fff;
+    width: 22px;
+}
+
+.service_area_equipment_title:hover .service_area_slide {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* testimonail area */
+
+.testimonial_area_linebar {
+    height: 2px;
+    width: 55px;
+    background: #f04e3c;
+}
+
+.testimonial_area_title {
+    font-family: 'Teko';
+    font-size: 1.4rem;
+}
+
+.testimonial_area_title_with_linebar {
+    display: flex;
+    gap: 1rem;
+    color: #f04e3c;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.testimonial_area_all_text h2 {
+    font-family: 'Teko';
+    color: #2c234d;
+    line-height: 55px;
+    overflow: hidden;
+    font-weight: 900;
+    max-width: 27rem;
+    font-size: 3.8rem;
+    text-transform: uppercase;
+}
+
+.testimonial_area_rattiong_caption p {
+    padding-top: 2rem;
+    width: 100%;
+    max-width: 32rem;
+    color: #717b9b;
+}
+
+.testimonail_area_client {
+    color: #06080a;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Teko';
+}
+
+.testimonail_area_client span {
+    font-size: 16px;
+    padding-left: 15px;
+    color: #767676;
+}
+
+.testimonial_area {
+    padding-top: 11rem;
+    padding-bottom: 9rem;
+}
+
+.testimonial_area_img {
+    text-align: end;
+}
+
+.testimonial_area_all_text {
+    margin: auto;
+    padding-left: 5rem;
+}
+
+.testimonial_area_with_text {
+    position: relative;
+}
+
+.quatation_image {
+    position: absolute;
+    left: 28rem;
+    top: 18rem;
+}
+
+.testimonial_left_arrow svg,
+.testimonial_right_arrow svg {
+    width: 25px;
+    height: 25px;
+    fill: #ff1313;
+}
+
+.testimonial_area_arrow {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 13rem;
+    gap: 1rem;
+}
+
+.testimonial_area_rattiong_caption {
+    display: inline-block;
+    animation: loopSlide 7s linear infinite;
+    will-change: transform;
+}
+
+@keyframes loopSlide {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.left_gallery_area_img img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    opacity: 0.75;
+}
+
+.left_upper_gallery_area_img img {
+   width: 100%;
+    min-width: 24rem;
+    padding-left: 1rem;
+    padding-bottom: 1.6rem;
+    height: 100%;
+    object-fit: cover;
+}
+
+.left_upper_gallery_area_img {
+    position: relative;
+    overflow: hidden;
+}
+
+.left_upper_gallery_area_img svg {
+    width: 3.5rem;
+}
+.left_gallery_area_img.p-0 {
+    max-height: 45rem;
+}
+
+.overlay_content svg {
+    fill: #fff;
+    background: red;
+    padding: 1rem;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
+.overlay_content h3 {
+    display: flex;
+    padding-top: 2rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Teko';
+    overflow: hidden;
+}
+
+.overlay_content span {
+    text-align: center;
+    overflow: hidden;
+    font-size: 1.4rem;
+}
+
+.overlay_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 28%;
+    left: 28%;
+    color: #fff;
+    opacity: 0;
+    justify-content: center;
+    transition: all 2s ease-in-out;
+}
+
+.left_upper_gallery_area_img:hover .overlay_content {
+    opacity: 1;
+}
+
+
+/* OUR TEAM MEMBER  */
+
+.our_team_linebar_with_text .our_team_member_line_bar {
+    height: 2px;
+    width: 50px;
+    background-color: #f04e3c;
+}
+
+.caption_our_team_member {
+    color: #f04e3c;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-family: 'Teko';
+}
+
+.our_team_linebar_with_text {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.title_team_menmber {
+    color: #2c234d;
+    font-size: 4rem;
+    max-width: 33rem;
+    overflow: hidden;
+    text-transform: uppercase;
+    line-height: 4rem;
+    width: 100%;
+    font-weight: bold;
+    padding-top: 1.7rem;
+    font-family: 'Teko';
+}
+
+.caption_btn {
+    text-transform: uppercase;
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    background: red;
+    font-family: 'Teko';
+    border: 2px solid red;
+    color: #fff;
+}
+
+.caption_right_btn {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-right: 1.6rem;
+    padding-top: 8rem;
+    justify-content: end;
+}
+
+.our_team_members {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+/* .teams_images {
+    display: flex;
+    flex-wrap: wrap;    
+    align-items: center;
+    justify-content: center;
+} */
+.team_image {
+    position: relative;
+    padding: 15px;
+}
+
+.team_image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.our_team_member {
+    padding-bottom: 10rem;
+}
+
+.team_caption_linebar_with_derector_line_bar {
+    width: 50px;
+    background: #fff;
+    height: 3px;
+}
+
+.craetive_derector {
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 'Teko';
+}
+
+.team_caption_linebar_with_derector {
+    gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.team_caption_linebar_with_writtername {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+
+    width: calc(100% - 30px);
+
+    background: red;
+    padding: 1.5rem;
+}
+
+.team_caption_linebar_with_writtername h2 {
+    font-family: 'Teko', sans-serif;
+    color: #fff;
+    overflow: hidden;
+    font-size: 1.8rem;
+}
+
+.membership_offer {
+    padding-bottom: 5rem;
+    padding-top: 6rem;
+    background-color: #093C5D;
+}
+
+.right_membership_offer h2 {
+    font-size: 4rem;
+    font-weight: 600;
+    overflow: hidden;
+    color: #fff;
+    font-family: 'Teko';
+}
+
+.right_membership_offer {
+    padding-left: 11rem;
+}
+.left_membership_offer_btn {
+    text-align: end;
+    padding-top: 3rem;
+    padding-right: 11rem;
+}
+.membership_offer_btns {
+    padding: 1rem 3rem;
+    font-size: 1.3rem;
+    background: red;
+    color: #fff;
+    border: 2px solid red;
+    text-transform: uppercase;
+    font-family: 'Teko', sans-serif;
+}
+/* our time schdule */
+
+.our_time_schdule_linebar {
+    width: 4rem;
+    height: 2px;
+    background: #f04e3c;
+}
+.our_time_schdule_heading {
+    color: #f04e3c;
+    font-family: 'Teko';
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.our_time_schdule_linebar_with_heading {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.our_time_schdule_wrapper h3 {
+    font-family: 'Teko';
+    text-transform: uppercase;
+    color: #2c234d;
+    padding-top: 1.6rem;
+    overflow: hidden;
+    font-weight: 700;
+    text-align: center;
+    font-size: 4rem;
+}
+.our_time_schdule_wrapper {
+    padding-bottom: 7rem;
+}
+ul.properties__button_all_days{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    color: #2c234d;
+    font-family: 'Teko';
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+ul.properties__button_all_days li:nth-child(3) {
+    background: red;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    border: 1px solid red;
+}
+.kick_boxing ul {
+    gap: 6rem;
+    line-height: 2rem;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+    justify-content: center;
+}
+.kick_boxing h4 {
+    font-weight: 600;
+    font-size: 1.8rem;
+    font-family: 'Teko';
+    padding-top: 0.8rem;
+    color: #2c234d;
+    overflow: hidden;
+}
+.kick_boxing_caption {
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    color: #fff;
+    font-family: 'Teko';
+}
+.kick_boxing_writter_name {
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: center;;
+}
+.kick_boxing_writter_name span {
+    color: #2c234d;
+    font-family: 'Teko';
+    font-size: 16px;
+}
+.kick_boxing ul li:nth-child(2) {
+    border: 2px solid red;
+    padding: 4rem 4rem;
+    background: red;
+    color: #fff;
+}
+.kick_boxing ul li:nth-child(2) h4{
+    color: #fff;
+}
+.kick_boxing ul li:nth-child(2) .kick_boxing_caption{
+    color: #000000;
+    background: #fff;
+    border: 2px solid #fff;
+}
+.kick_boxing ul li:nth-child(2) .kick_boxing_writter_name span{
+    color: #fff;
+}
+.kick_boxing ul li:hover {
+    padding: 4rem 4rem;
+    background: red;
+    border: 2px solid red;
+}
+ .kick_boxing ul li{
+    background-color: transparent;
+    transition: all 0.5s ease-in-out;
+ }
+.kick_boxing ul li:hover .kick_boxing_caption{
+    color: #000000;
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+.kick_boxing ul li:hover h4, .kick_boxing ul li:hover .kick_boxing_writter_name, .kick_boxing ul li:hover .kick_boxing_writter_name span {
+    color: #fff;
+}
+.our_time_schdule {
+    padding-top: 10rem;
+}
+
+/* Contact form */
+
+.contact_form_image_left {
+    max-width: 44rem;
+    overflow: hidden;
+    height: 47rem;
+}
+.contact_form_image_left img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+.contact_form_linebar {
+    height: 2px;
+    width: 50px;
+    background: rgb(240, 78, 60);
+}
+.contact_form_linebar_with_text {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+    align-items: center;
+    color: rgb(240, 78, 60);
+}
+.contact_form_title {
+    font-family: 'Teko', sans-serif;
+    font-size: 1.7rem;
+}
+.contact_form_section_title h2 {
+    font-weight: 600;
+    color: rgb(44, 35, 77);
+    font-size: 4rem;
+    overflow: hidden;
+    max-width: 32rem;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: 'Teko';
+}
+.contact_form_name {
+    padding: 1rem;
+    width: 21rem;
+    font-weight: 500;
+    border-color: #e9f0f4;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    color: #112957;
+    margin-bottom: 2em;
+    border-top: none;
+}
+.contact_form_message{
+    padding: 1rem;
+    width: 100%;
+    font-weight: 500;
+    outline: none;
+    color: #112957;
+    border: 0;
+    border-bottom: 2px solid #e9f0f4;
+}
+.contact_form_btn {
+    padding: 1rem 3rem;
+    font-family: 'Teko';
+    font-size: 1.3rem;
+    background: red;
+    text-transform: uppercase;
+    border: 2px solid red;
+    color: #fff;
+}
+.contact_form_send_msg {
+    padding-top: 4rem;
+}
+.contact_form_section_title {
+    padding-top: 5rem;
+    padding-left: 2rem;
+}
+.contact_form {
+    padding-top: 10rem;
+}
+
+/* Home Blog */
+
+.recent_news_blog {
+    font-family: 'Teko';
+    color: #f04e3c;
+    font-size: 1.4rem;
+}
+.recent_news_blog span {
+    height: 2px;
+    width: 50px;
+    background: #f04e3c;
+}
+.recent_news_blog {
+    text-align: center;
+    font-family: 'Teko';
+    gap: 1rem;
+    justify-content: center;
+    color: #f04e3c;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 1.4rem;
+}
+.recent_news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.recent_news h2 {
+    line-height: 4.6rem;
+    padding: 1rem;
+    overflow: hidden;
+    text-align: center;
+    font-weight: 700;
+    font-size: 4rem;
+    font-family: 'Teko';
+    text-transform: uppercase;
+}
+.blog_img {
+    height: 100%;
+    overflow: hidden;
+    max-width: 35rem;
+    position: relative;
+    box-sizing: border-box;
+}
+.blog_img img {
+    padding: 0.3rem;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.blog_cap h3 {
+    overflow: hidden;
+    color: #191d34;
+}
+.blog_cap_text_linebar span {
+    height: 3px;
+    background: #0d1628;
+    width: 36px;
+}
+.blog_cap_text_linebar {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Barlow";
+    gap: 1.5rem;
+    align-items: center;
+}
+.blog_cap h3 {
+    padding-top: 0.8rem;
+    width: 100%;
+    max-width: 27rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #191d34;
+}
+.blog_cap {
+    padding-top: 2rem;
+    padding-left: 4rem;
+}
+.home_blog {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+.blog_date {
+    bottom: 8.9rem;
+    left: 1rem;
+    position: absolute;
+    overflow: hidden;
+    background: red;
+    border: 1px solid red;
+    text-align: center;
+    padding: 1rem 2rem;
+}
+.blog_date h4 {
+    color: #fff;
+    overflow: hidden;
+}
+.blog_date h3 {
+    font-weight: 400;
+    color: #fff;
+    font-size: 1.1rem;
+    overflow: hidden;
+}
+.news_blog_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer area */
+.wrapper_footer_area {
+    display: flex;
+    /* line-height: 2rem; */
+    gap: 8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer_title h2 {
+    color: #fff;
+    font-weight: 600;
+    overflow: hidden;
+    font-family: 'Teko';
+    padding-left: 2rem;
+    font-size: 1.4rem;
+}
+.footer_title ul li {
+    text-align: justify;
+    line-height: 2.4rem;
+    color: rgb(196, 196, 196);
+}
+.footer_pera {
+    color: rgb(196, 196, 196);
+    line-height: 1.8rem;
+    font-size: 0.9rem;
+    max-width: 18rem;
+}
+.fotter_logo {
+    padding-bottom: 1.5rem;
+}
+.footer_social {
+   
+} 
+.footer_social svg {
+    width: 1.1rem;
+    height: 1.1rem;
+}
+.footer_title ul {
+    padding-top: 1rem;
+}
+.footer_social {
+    fill: rgb(196, 196, 196);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+}
+.footer_area {
+    background-size: center;
+    background: url(images/section_bg03.png);
+    background-position: center center;
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.footer-copy {
+    padding-top: 8rem;
+    font-family: serif;
+    text-align: center;
+    color: rgb(196, 196, 196);
+}
+.footer-copy span {
+    color: #f04e3c;
+}
+.main_header.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 1);
+    left: 0;
+    padding: 1rem;
+    margin: 0;
+    width: 100%;
+    background: #000000;
+}
+.main_header {
+    padding: 0.5rem;
+    width: 100%;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 1);
+    transition: all 0.9s ease-in-out;
+}
+
+.hamburger_btn {
+    display: none;
+    flex-direction: column;
+    gap: 3px;
+    padding: 0px;
+}
+.hamburger_btn span {
+    display: block;
+    height: 3px;
+    width: 30px;
+    background-color: darkred;
+}
+
+/* Mobile Responsive */
+
+@media only screen and (min-width: 768px) and (max-width: 980px){
+    .row.main_header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+} 
+ul.navbar_menu li {
+    font-size: 0.8rem;
+}
+.header_btn {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+}
+}
+
+@media only screen and (max-width: 767px) {
+    .main_header{
+        padding: 0;
+        margin: 0;
+    }
+    .logo_header {
+        width: 100%;
+        padding-bottom: 0.5rem;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    /* .main_header {
+        padding-top: 11px;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    } */
+    .hamburger_btn {
+        display: flex;
+    }
+    .navbar {
+        background: #222;
+        display: none;
+    }
+    .navbar_menu {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    ul.navbar_menu {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .header_btn {
+        display: none;
+    }
+    /* .show_my_menu{
+        display: block;
+    } */
+}
+
+
+
+
