@@ -429,7 +429,7 @@ ul.navbar_menu {
 }
 
 .left_upper_gallery_area_img img {
-   width: 100%;
+    width: 100%;
     min-width: 24rem;
     padding-left: 1rem;
     padding-bottom: 1.6rem;
@@ -445,6 +445,7 @@ ul.navbar_menu {
 .left_upper_gallery_area_img svg {
     width: 3.5rem;
 }
+
 .left_gallery_area_img.p-0 {
     max-height: 45rem;
 }
@@ -549,12 +550,6 @@ ul.navbar_menu {
     padding-bottom: 5rem;
 }
 
-/* .teams_images {
-    display: flex;
-    flex-wrap: wrap;    
-    align-items: center;
-    justify-content: center;
-} */
 .team_image {
     position: relative;
     padding: 15px;
@@ -623,11 +618,13 @@ ul.navbar_menu {
 .right_membership_offer {
     padding-left: 11rem;
 }
+
 .left_membership_offer_btn {
     text-align: end;
     padding-top: 3rem;
     padding-right: 11rem;
 }
+
 .membership_offer_btns {
     padding: 1rem 3rem;
     font-size: 1.3rem;
@@ -637,6 +634,7 @@ ul.navbar_menu {
     text-transform: uppercase;
     font-family: 'Teko', sans-serif;
 }
+
 /* our time schdule */
 
 .our_time_schdule_linebar {
@@ -644,12 +642,14 @@ ul.navbar_menu {
     height: 2px;
     background: #f04e3c;
 }
+
 .our_time_schdule_heading {
     color: #f04e3c;
     font-family: 'Teko';
     font-size: 1.5rem;
     text-transform: uppercase;
 }
+
 .our_time_schdule_linebar_with_heading {
     align-items: center;
     justify-content: center;
@@ -657,6 +657,7 @@ ul.navbar_menu {
     gap: 2rem;
     flex-wrap: wrap;
 }
+
 .our_time_schdule_wrapper h3 {
     font-family: 'Teko';
     text-transform: uppercase;
@@ -667,10 +668,12 @@ ul.navbar_menu {
     text-align: center;
     font-size: 4rem;
 }
+
 .our_time_schdule_wrapper {
     padding-bottom: 7rem;
 }
-ul.properties__button_all_days{
+
+ul.properties__button_all_days {
     display: flex;
     flex-wrap: wrap;
     gap: 4rem;
@@ -680,12 +683,14 @@ ul.properties__button_all_days{
     align-items: center;
     justify-content: center;
 }
+
 ul.properties__button_all_days li:nth-child(3) {
     background: red;
     color: #fff;
     padding: 0.5rem 2rem;
     border: 1px solid red;
 }
+
 .kick_boxing ul {
     gap: 6rem;
     line-height: 2rem;
@@ -695,6 +700,7 @@ ul.properties__button_all_days li:nth-child(3) {
     padding-top: 5rem;
     justify-content: center;
 }
+
 .kick_boxing h4 {
     font-weight: 600;
     font-size: 1.8rem;
@@ -703,6 +709,7 @@ ul.properties__button_all_days li:nth-child(3) {
     color: #2c234d;
     overflow: hidden;
 }
+
 .kick_boxing_caption {
     border: 1px solid;
     display: flex;
@@ -713,50 +720,64 @@ ul.properties__button_all_days li:nth-child(3) {
     color: #fff;
     font-family: 'Teko';
 }
+
 .kick_boxing_writter_name {
     font-size: 0.9rem;
     font-weight: 500;
-    text-align: center;;
+    text-align: center;
+    ;
 }
+
 .kick_boxing_writter_name span {
     color: #2c234d;
     font-family: 'Teko';
     font-size: 16px;
 }
+
 .kick_boxing ul li:nth-child(2) {
     border: 2px solid red;
     padding: 4rem 4rem;
     background: red;
     color: #fff;
 }
-.kick_boxing ul li:nth-child(2) h4{
+
+.kick_boxing ul li:nth-child(2) h4 {
     color: #fff;
 }
-.kick_boxing ul li:nth-child(2) .kick_boxing_caption{
+
+.kick_boxing ul li:nth-child(2) .kick_boxing_caption {
     color: #000000;
     background: #fff;
     border: 2px solid #fff;
 }
-.kick_boxing ul li:nth-child(2) .kick_boxing_writter_name span{
+
+.kick_boxing ul li:nth-child(2) .kick_boxing_writter_name span {
     color: #fff;
 }
+
 .kick_boxing ul li:hover {
     padding: 4rem 4rem;
     background: red;
     border: 2px solid red;
 }
- .kick_boxing ul li{
+
+.kick_boxing ul li {
     background-color: transparent;
     transition: all 0.5s ease-in-out;
- }
-.kick_boxing ul li:hover .kick_boxing_caption{
+}
+
+.kick_boxing ul li:hover .kick_boxing_caption {
     color: #000000;
     background-color: #fff;
     border: 2px solid #fff;
 }
-.kick_boxing ul li:hover h4, .kick_boxing ul li:hover .kick_boxing_writter_name, .kick_boxing ul li:hover .kick_boxing_writter_name span {
+
+.kick_boxing ul li:hover h4,
+.kick_boxing ul li:hover .kick_boxing_writter_name,
+.kick_boxing ul li:hover .kick_boxing_writter_name span {
     color: #fff;
 }
+
 .our_time_schdule {
     padding-top: 10rem;
 }
@@ -768,17 +789,20 @@ ul.properties__button_all_days li:nth-child(3) {
     overflow: hidden;
     height: 47rem;
 }
+
 .contact_form_image_left img {
     object-fit: cover;
     object-position: center;
     width: 100%;
     height: 100%;
 }
+
 .contact_form_linebar {
     height: 2px;
     width: 50px;
     background: rgb(240, 78, 60);
 }
+
 .contact_form_linebar_with_text {
     display: flex;
     flex-wrap: wrap;
@@ -786,10 +810,12 @@ ul.properties__button_all_days li:nth-child(3) {
     align-items: center;
     color: rgb(240, 78, 60);
 }
+
 .contact_form_title {
     font-family: 'Teko', sans-serif;
     font-size: 1.7rem;
 }
+
 .contact_form_section_title h2 {
     font-weight: 600;
     color: rgb(44, 35, 77);
@@ -800,6 +826,7 @@ ul.properties__button_all_days li:nth-child(3) {
     text-transform: uppercase;
     font-family: 'Teko';
 }
+
 .contact_form_name {
     padding: 1rem;
     width: 21rem;
@@ -812,7 +839,8 @@ ul.properties__button_all_days li:nth-child(3) {
     margin-bottom: 2em;
     border-top: none;
 }
-.contact_form_message{
+
+.contact_form_message {
     padding: 1rem;
     width: 100%;
     font-weight: 500;
@@ -821,6 +849,7 @@ ul.properties__button_all_days li:nth-child(3) {
     border: 0;
     border-bottom: 2px solid #e9f0f4;
 }
+
 .contact_form_btn {
     padding: 1rem 3rem;
     font-family: 'Teko';
@@ -830,13 +859,16 @@ ul.properties__button_all_days li:nth-child(3) {
     border: 2px solid red;
     color: #fff;
 }
+
 .contact_form_send_msg {
     padding-top: 4rem;
 }
+
 .contact_form_section_title {
     padding-top: 5rem;
     padding-left: 2rem;
 }
+
 .contact_form {
     padding-top: 10rem;
 }
@@ -848,11 +880,13 @@ ul.properties__button_all_days li:nth-child(3) {
     color: #f04e3c;
     font-size: 1.4rem;
 }
+
 .recent_news_blog span {
     height: 2px;
     width: 50px;
     background: #f04e3c;
 }
+
 .recent_news_blog {
     text-align: center;
     font-family: 'Teko';
@@ -864,12 +898,14 @@ ul.properties__button_all_days li:nth-child(3) {
     align-items: center;
     font-size: 1.4rem;
 }
+
 .recent_news {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
+
 .recent_news h2 {
     line-height: 4.6rem;
     padding: 1rem;
@@ -880,6 +916,7 @@ ul.properties__button_all_days li:nth-child(3) {
     font-family: 'Teko';
     text-transform: uppercase;
 }
+
 .blog_img {
     height: 100%;
     overflow: hidden;
@@ -887,21 +924,25 @@ ul.properties__button_all_days li:nth-child(3) {
     position: relative;
     box-sizing: border-box;
 }
+
 .blog_img img {
     padding: 0.3rem;
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
+
 .blog_cap h3 {
     overflow: hidden;
     color: #191d34;
 }
+
 .blog_cap_text_linebar span {
     height: 3px;
     background: #0d1628;
     width: 36px;
 }
+
 .blog_cap_text_linebar {
     display: flex;
     flex-wrap: wrap;
@@ -909,6 +950,7 @@ ul.properties__button_all_days li:nth-child(3) {
     gap: 1.5rem;
     align-items: center;
 }
+
 .blog_cap h3 {
     padding-top: 0.8rem;
     width: 100%;
@@ -917,14 +959,17 @@ ul.properties__button_all_days li:nth-child(3) {
     font-size: 1.6rem;
     color: #191d34;
 }
+
 .blog_cap {
     padding-top: 2rem;
     padding-left: 4rem;
 }
+
 .home_blog {
     padding-top: 12rem;
     padding-bottom: 12rem;
 }
+
 .blog_date {
     bottom: 8.9rem;
     left: 1rem;
@@ -935,16 +980,19 @@ ul.properties__button_all_days li:nth-child(3) {
     text-align: center;
     padding: 1rem 2rem;
 }
+
 .blog_date h4 {
     color: #fff;
     overflow: hidden;
 }
+
 .blog_date h3 {
     font-weight: 400;
     color: #fff;
     font-size: 1.1rem;
     overflow: hidden;
 }
+
 .news_blog_img {
     display: flex;
     flex-wrap: wrap;
@@ -955,11 +1003,11 @@ ul.properties__button_all_days li:nth-child(3) {
 /* footer area */
 .wrapper_footer_area {
     display: flex;
-    /* line-height: 2rem; */
     gap: 8rem;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .footer_title h2 {
     color: #fff;
     font-weight: 600;
@@ -968,30 +1016,33 @@ ul.properties__button_all_days li:nth-child(3) {
     padding-left: 2rem;
     font-size: 1.4rem;
 }
+
 .footer_title ul li {
     text-align: justify;
     line-height: 2.4rem;
     color: rgb(196, 196, 196);
 }
+
 .footer_pera {
     color: rgb(196, 196, 196);
     line-height: 1.8rem;
     font-size: 0.9rem;
     max-width: 18rem;
 }
+
 .fotter_logo {
     padding-bottom: 1.5rem;
 }
-.footer_social {
-   
-} 
+
 .footer_social svg {
     width: 1.1rem;
     height: 1.1rem;
 }
+
 .footer_title ul {
     padding-top: 1rem;
 }
+
 .footer_social {
     fill: rgb(196, 196, 196);
     display: flex;
@@ -999,6 +1050,7 @@ ul.properties__button_all_days li:nth-child(3) {
     align-items: center;
     gap: 1rem;
 }
+
 .footer_area {
     background-size: center;
     background: url(images/section_bg03.png);
@@ -1008,15 +1060,18 @@ ul.properties__button_all_days li:nth-child(3) {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 .footer-copy {
     padding-top: 8rem;
     font-family: serif;
     text-align: center;
     color: rgb(196, 196, 196);
 }
+
 .footer-copy span {
     color: #f04e3c;
 }
+
 .main_header.sticky {
     position: fixed;
     top: 0;
@@ -1029,6 +1084,7 @@ ul.properties__button_all_days li:nth-child(3) {
     width: 100%;
     background: #000000;
 }
+
 .main_header {
     padding: 0.5rem;
     width: 100%;
@@ -1039,42 +1095,46 @@ ul.properties__button_all_days li:nth-child(3) {
 .hamburger_btn {
     display: none;
     flex-direction: column;
-    gap: 3px;
+    gap: 8px;
     padding: 0px;
 }
+
 .hamburger_btn span {
     display: block;
     height: 3px;
     width: 30px;
-    background-color: darkred;
+    background-color: red;
 }
 
 /* Mobile Responsive */
 
-@media only screen and (min-width: 768px) and (max-width: 980px){
-    .row.main_header{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-} 
-ul.navbar_menu li {
-    font-size: 0.8rem;
-}
-.header_btn {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    height: 4rem;
-}
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+    .row.main_header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    ul.navbar_menu li {
+        font-size: 0.8rem;
+    }
+
+    .header_btn {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 4rem;
+    }
 }
 
 @media only screen and (max-width: 767px) {
-    .main_header{
+    .main_header {
         padding: 0;
         margin: 0;
     }
+
     .logo_header {
         width: 100%;
         padding-bottom: 0.5rem;
@@ -1082,37 +1142,199 @@ ul.navbar_menu li {
         display: flex;
         justify-content: space-between;
     }
-    /* .main_header {
-        padding-top: 11px;
-        padding-left: 0;
-        padding-right: 0;
-        width: 100%;
-    } */
+
     .hamburger_btn {
         display: flex;
+        overflow: hidden;
     }
+
     .navbar {
         background: #222;
         display: none;
     }
+
     .navbar_menu {
         display: flex;
         flex-direction: column;
         gap: 1rem;
     }
+
     ul.navbar_menu {
         display: flex;
         flex-direction: column;
         gap: 1rem;
     }
+
     .header_btn {
         display: none;
     }
-    /* .show_my_menu{
-        display: block;
-    } */
+
+    .hero_caption_with_video {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .about_right_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left_upper_gallery_area_img {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right_membership_offer {
+        text-align: center;
+    }
+
+    .left_membership_offer_btn {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact_form_section_title {
+        text-align: center;
+    }
+
+    .contact_form_linebar_with_text {
+        justify-content: center;
+    }
+
+    .contact_form_message {
+        width: 21rem;
+    }
+
+    .our_service_btns {
+        text-align: center;
+    }
+
+    .testimonial_area_title_with_linebar {
+        justify-content: center;
+        padding-top: 1rem;
+    }
+
+    .our_team_linebar_with_text {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .caption_right_btn {
+        padding-top: 4rem;
+        justify-content: center;
+    }
+
+    .home_blog {
+        padding-top: 6rem;
+    }
+
+    .testimonial_area_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog_img img {
+        padding-top: 2rem;
+    }
+
+    .home_blog {
+        padding-top: 0rem;
+        padding-bottom: 5rem;
+    }
+
+    .contact_form_section_title h2 {
+        padding-top: 0.8rem;
+    }
+
+    .right_membership_offer {
+        padding-left: 0;
+        padding-bottom: 1rem;
+    }
+
+    .our_time_schdule {
+        padding-top: 4rem;
+    }
+
+    .title_team_menmber {
+        text-align: center;
+    }
+
+    .about_heading {
+        font-size: 3.1rem;
+    }
+
+    .about_gym {
+        padding-bottom: 6rem;
+        padding-top: 5rem;
+    }
+
+    .testimonial_area {
+        padding-top: 7rem;
+        padding-bottom: 4rem;
+    }
+
+    .our_team_members {
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+    }
+
+    .our_team_member {
+        padding-bottom: 4rem;
+    }
+
+    .our_time_schdule_wrapper {
+        padding-bottom: 4rem;
+    }
+
+    .contact_form {
+        padding-top: 3rem;
+    }
+
+    .recent_news {
+        padding-top: 4rem;
+    }
+
+    .blog_cap {
+        align-items: center;
+    }
+
+    .testimonial_area_arrow {
+        padding: 0;
+        justify-content: center;
+    }
+
+    .footer_area {
+        padding-top: 5rem;
+    }
+
+    .wrapper_footer_area {
+        gap: 6rem;
+    }
+
+    .hamburger_btn.open span:nth-child(1) {
+        transform: translateY(13px) rotate(41deg);
+    }
+
+    .hamburger_btn.open span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger_btn.open span:nth-child(3) {
+        transform: translateY(-8px) rotate(135deg);
+    }
 }
 
-
-
-
+@media only screen and (max-width: 405px) {
+    .blog_date {
+        bottom: 10.8rem;
+    }
+}
