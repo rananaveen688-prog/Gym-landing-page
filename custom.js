@@ -8,10 +8,12 @@ $(document).ready(function () {
         }
     });
 
-    $('.hamburger_btn').on('click',function(){
+    $('.hamburger_btn').on('click', function () {
         $('.navbar').slideToggle(400);
-        });
-    $('.navbar_menu li').on('click',function(){
+        $(this).toggleClass('open');
+    });
+    $('.navbar_menu li').on('click', function () {
         $('.navbar').slideUp(300);
+        $('.hamburger_btn').removeClass('open');
     });
 });
