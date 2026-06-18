@@ -1252,8 +1252,9 @@ ul.properties__button_all_days li:nth-child(3) {
     }
 
     .right_membership_offer {
-        padding-left: 0;
-        padding-bottom: 1rem;
+        text-align: left;
+        padding-left: 1em;
+        padding-bottom: 0rem;
     }
 
     .our_time_schdule {
