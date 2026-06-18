@@ -1356,7 +1356,10 @@ ul.properties__button_all_days li:nth-child(3) {
     }
     .footer_title ul {
     padding-left: 0;
-}
+    }
+    .our_service_title h2 {
+        font-size: 3rem;
+    }
 }
 
 @media only screen and (max-width: 405px) {
