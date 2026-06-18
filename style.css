@@ -1315,6 +1315,8 @@ ul.properties__button_all_days li:nth-child(3) {
 
     .wrapper_footer_area {
         gap: 6rem;
+        display: flex;
+        justify-content: flex-start;
     }
 
     .hamburger_btn.open span:nth-child(1) {
@@ -1348,6 +1350,12 @@ ul.properties__button_all_days li:nth-child(3) {
         max-width: 28rem;
         width: 100%;
     }
+    .footer_title h2 {
+        padding-left: 0;
+    }
+    .footer_title ul {
+    padding-left: 0;
+}
 }
 
 @media only screen and (max-width: 405px) {
