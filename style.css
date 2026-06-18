@@ -232,7 +232,7 @@ ul.navbar_menu {
 }
 
 .our_service {
-    padding-top: 11rem;
+    padding-top: 7rem;
 }
 
 .our_service_title {
@@ -1212,10 +1212,6 @@ ul.properties__button_all_days li:nth-child(3) {
         width: 21rem;
     }
 
-    .our_service_btns {
-        text-align: center;
-    }
-
     .testimonial_area_title_with_linebar {
         justify-content: center;
         padding-top: 1rem;
@@ -1330,6 +1326,15 @@ ul.properties__button_all_days li:nth-child(3) {
 
     .hamburger_btn.open span:nth-child(3) {
         transform: translateY(-8px) rotate(135deg);
+    }
+    .about_para_bottom{
+        max-width: 31rem;
+    }   
+    .our_service_btns {
+        padding-top: 3rem;
+    }
+     padding-left: 3rem;
+        padding-top: 7rem;
     }
 }
 
