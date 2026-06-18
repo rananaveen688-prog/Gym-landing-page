@@ -1331,6 +1331,7 @@ ul.properties__button_all_days li:nth-child(3) {
         max-width: 31rem;
     }   
     .our_service_btns {
+        padding-left: 5rem;
         padding-top: 3rem;
     }
     .caption_with_video {
