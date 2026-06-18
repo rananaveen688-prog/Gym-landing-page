@@ -1342,6 +1342,11 @@ ul.properties__button_all_days li:nth-child(3) {
         font-size: 2rem;
         max-width: 25rem;
     }
+    .our_service_title {
+        padding-left: 5rem;
+        max-width: 28rem;
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 405px) {
