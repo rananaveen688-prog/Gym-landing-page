@@ -1194,10 +1194,7 @@ ul.properties__button_all_days li:nth-child(3) {
     }
 
     .left_membership_offer_btn {
-        padding: 0;
-        margin: 0;
-        width: 100%;
-        text-align: center;
+        text-align: left;
     }
 
     .contact_form_section_title {
