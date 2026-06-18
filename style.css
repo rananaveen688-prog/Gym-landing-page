@@ -1333,8 +1333,16 @@ ul.properties__button_all_days li:nth-child(3) {
     .our_service_btns {
         padding-top: 3rem;
     }
-     padding-left: 3rem;
+     .padding-left: 3rem;
         padding-top: 7rem;
+    }
+    .caption_with_video {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+    }
+    .caption_content {
+        font-size: 2rem;
+        max-width: 25rem;
     }
 }
 
