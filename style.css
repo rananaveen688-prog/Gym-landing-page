@@ -1214,7 +1214,7 @@ ul.properties__button_all_days li:nth-child(3) {
 
     .testimonial_area_title_with_linebar {
         justify-content: center;
-        padding-top: 1rem;
+        padding-top: 2rem;
     }
 
     .our_team_linebar_with_text {
@@ -1304,7 +1304,8 @@ ul.properties__button_all_days li:nth-child(3) {
     }
 
     .testimonial_area_arrow {
-        padding: 0;
+        padding-top: 2rem;
+        padding-left: 0;
         justify-content: center;
     }
 
